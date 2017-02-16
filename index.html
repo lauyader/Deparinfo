@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="es" ng-app>
+
+<head>
+    <meta charset="utf-8">
+    <title>Departamento de Informática</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página oficial del Departamento de Informática de la FaCE Universidad de Carabobo">
+    <meta name="author" content="Luis Americo Auyadermont">
+    <meta property="og:image" content="http://www.face.uc.edu.ve/deparinfo/imagenes/logodeparinfo1.png" />
+
+    <!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+    <!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+    <!--script src="js/less-1.3.3.min.js"></script-->
+    <!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@deparinfo">
+    <meta name="twitter:title" content="Departamento de Informática FaCE UC">
+    <meta name="twitter:description" content="Página oficial del Departamento de Informática de la FaCE Universidad de Carabobo">
+    <meta name="twitter:creator" content="@lauyader">
+    <!-- Twitter Summary card images must be at least 200x200px -->
+    <meta name="twitter:image" content="http://www.face.uc.edu.ve/deparinfo/imagenes/logodeparinfo1.jpg">
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="angular/angular.min.js" type="text/javascript"></script>
+    <script src="angular/angular-resource.min.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+
+    <div class=" container ">
+        <div class="row clearfix ">
+            <div ng-include="'tope.html'">
+
+            </div>
+        </div>
+
+        <!-- Espacio para el menu principal -->
+        <div class="row clearfix ">
+            <div class="col-md-12 column ">
+                <div ng-include="'menu.html'">
+
+                </div>
+            </div>
+        </div>
+        <!-- Fin del menu -->
+
+
+
+
+
+        <div class="row clearfix ">
+            <div class=" col-lg-8 ">
+                <div class="carousel slide well " id="carousel-3491 ">
+                    <ol class="carousel-indicators ">
+                        <li class="active " data-slide-to="0 " data-target="#carousel-3491 ">
+                        </li>
+                        <li data-slide-to="1 " data-target="#carousel-3491 ">
+                        </li>
+                        <li data-slide-to="2 " data-target="#carousel-3491 ">
+                        </li>
+                    </ol>
+                    <div class="carousel-inner ">
+                        <div class="item active ">
+                            <a href="http://www.face.uc.edu.ve/eduweb2017 "> <img href=" " alt=" " src="imagenes/slider.png "> </a>
+
+                            <div class="carousel-caption ">
+
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <img alt=" " src="imagenes/2.jpeg ">
+                            <div class="carousel-caption ">
+                                <h4>
+                                    Robótica educativa
+                                </h4>
+
+                            </div>
+                        </div>
+                        <div class="item ">
+                            <img alt=" " src="imagenes/3.jpg ">
+                            <div class="carousel-caption ">
+                                <h4>
+                                    Bienvenido al mundo digital
+                                </h4>
+                                <p>
+                                    Tecnología que se integra a la cotidianidad de nuestras vidas sin pedirnos permisos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control " href="#carousel-3491 " data-slide="prev "><span class="glyphicon glyphicon-chevron-left "></span></a>
+                    <a class="right carousel-control " href="#carousel-3491 " data-slide="next "><span class="glyphicon glyphicon-chevron-right "></span></a>
+
+                    <div>
+                        <hr width="100% " />
+                        <marquee direction="left " id="ejemplo ">
+                            Noticias: Te invitamos a participar Eduweb 2017, --- Participa en Twitter: @deparinfo --- Curso de HTML5, inicia el 15 de febrero---
+                        </marquee>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!-- Menu vertical -->
+
+            <div class="col-lg-4 ">
+                <div ng-include="'menuvertical.html'">
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+        <!-- Fin del Carrusel -->
+
+
+
+
+
+        <div class="row ">
+            <div class="col-md-8 ">
+
+                <div class="row ">
+                    <div class="col-md-4 ">
+                        <div class="thumbnail ">
+                            <img height="25 " width="150 " src="imagenes/moodle.jpeg ">
+                            <div class="caption ">
+                                <h4>
+                                    <p>Entorno Virtual de Aprendizaje (Moodle)</p>
+                                </h4>
+                                <p>
+                                    es un software diseñado para ayudar a los educadores a crear cursos en línea de alta calidad y entornos de aprendizaje virtuales...
+                                </p>
+                                <div align="right "><a class="btn-small btn-primary " href="http://www.face.uc.edu.ve/deparinfo/moodle ">Leer más...</a> </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 " id="scratch ">
+                        <div class="thumbnail ">
+                            <img alt="300x200 " width="150 " src="imagenes/logo-scratch.png ">
+                            <div class="caption ">
+                                <h4>
+                                    Informática Educativa
+                                </h4>
+                                <p>
+                                    Espacio para la divulgación de la experiencia de los participantes en la asignatura Informática Educativa I.
+                                </p>
+                                <div align="right "><a class="btn-small btn-primary " href="informaticaeducativa.html">Leer más...</a> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="thumbnail ">
+                            <img alt="300x200 " width="150 " src="imagenes/gnu.jpeg ">
+                            <div class="caption ">
+                                <h4>
+                                    ¿Software Libre?
+                                </h4>
+                                <p>
+                                    Software Libre se refiere a la libertad de los usuarios para ejecutar, copiar, distribuir, estudiar, cambiar y mejorar el software. De modo más preciso...
+
+
+                                </p>
+                                <p>
+                                    <div align="right "><a class="btn-small btn-primary " href="http://es.wikipedia.org/wiki/Software_libre ">Leer más...</a> </div>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- Cierre de la Primera fila Recursos Educativos -->
+                <div class="row ">
+                    <div class="col-md-12 ">
+
+                        <h4>!Recursos educativos en la web!</h4>
+
+  
+
+
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 ">
+                            <div class="thumbnail ">
+                                <img src="imagenes/pilasengine.jpg " alt=" ">
+                                <div class="caption ">
+
+                                    <p>
+                                        Pilas es una herramienta para construir videojuegos de manera sencilla y divertida.
+                                    </p>
+
+                                    <div align="rigth">
+
+
+                                        <a href="http://pilas-engine.com.ar/ " class="btn-small btn-primary ">Leer más...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4  ">
+                            <div class="thumbnail ">
+                                <img src="imagenes/eduteka.png " alt=" ">
+                                <div class="caption ">
+
+                                    <p>
+                                        Eduteka pone a disposición de estos, centenares de contenidos formativos e informativos que les ayudan a enriquecer, con el uso de las TIC, sus ambientes escolares de aprendizaje. web de Colombia
+                                    </p>
+                                    <p>
+                                        <a href="http://www.eduteka.org " class="btn-small btn-primary ">Leer más...</a>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4  ">
+                            <div class="thumbnail ">
+                                <img src="imagenes/synfig.png" alt=" ">
+                                <div class="caption ">
+
+                                    <p>
+                                        Synfig es un editor de gráficos vectoriales y una herramienta libre de animación por computadora creada por Robert Quattlebaum1 con la ayuda adicional de Adrian Bentley...
+                                    </p>
+                                    <p>
+                                        <a href="http://synfig.org/" class="btn-small btn-primary ">Leer más...</a>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " ng-show="desactivo">
+                            <div class="thumbnail ">
+                                <div class="caption ">
+                                    <h4>La Clase Inversa</h4>
+                                    <a data-pin-do="embedBoard " href="http://es.pinterest.com/jastebol/the-flipped-classroom/ "></a>
+                                </p>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+                            <div class="thumbnail ">
+                                <div class="caption ">
+                                    <h4>Sobre el Curso HTML5</h4>
+                                    
+                                    <p>Es una iniciativa del Área de Diseño y Producción del Departamento de Informática, con el objeto de formar a nuestros facilitadores, estudiantes y público en general  en el área de tecnologías Web, utilizando el código html, mediante el uso de  herramientas libres denominadas editores de textos inteligentes  y framework.</p>
+                                    <a  href="Presentaciones/Html5taller.html">Ir al contenido.</a> Comenzamos en 15 de Febrero de 2017. ¡Te esperamos!
+                            </div>
+                        </div>
+                        </div>
+
+
+
+
+                    </div>
+                    <!-- Cierr columna 12 -->
+
+
+                </div>
+                <!--cierre de la fila de recusos -->
+
+
+
+
+            </div>
+            <!-- Cierre de la columna -->
+
+            <div class="col-md-4 ">
+
+
+
+
+                <div align="center ">
+
+                    <a class="list-group-item active "><span class="badge "></span>Micro Cíne</a>
+
+                    <embed align="center " width="350 " height="200 " src="imagenes/cine.svg " type=" "></embed>
+                    <a class="list-group-item active "><span class="badge "></span> </a>
+
+                    <div>
+                        <br>
+                    </div>
+
+                    <div>
+                        <!-- Redes Sociales-->
+
+
+                        <a class="btn btn-block btn-social btn-twitter " href="https://twitter.com/deparinfo "> <i class="fa fa-twitter "> </i> Síguenos por Twitter </a>
+                        <a class="btn btn-block btn-social btn-facebook "> <i class="fa fa-facebook "></i> Síguenos por Facebook </a>
+                        <a class="btn btn-block btn-social btn-google "> <i class="fa fa-google "></i> Síguenos por Google + </a>
+                        <br>
+                    </div>
+
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                        <div class="thumbnail ">
+
+                            <div class="caption ">
+                                <div>
+
+                                    <iframe width="310" height="315" src="https://www.youtube.com/embed/WSFT4OQF_mA" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="thumbnail ">
+                            <div class="caption ">
+                                <img src="imagenes/exe.jpg " alt=" ">
+                                <a href="http://exelearning.net/ ">
+                                    <h3>Exelearning</h3>
+                                    <p>
+                                        <h5> Otra manera de hacer <strong>Módulos Educativos Computarizados (MEC)</strong>, sin programar. Usemos software libre</h5>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <!-- cierre de micro cine -->
+            </div>
+            <!-- Cierre de bloque derecho -->
+
+
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+    </div>
+
+
+    <div class="row" style="background-color: #446E9B; color:aliceblue;">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" align="center">
+            <h6><strong>Universidad de Carabobo</strong>, <br>Facultad de Ciencias de la Educación, <br> Departamento de Informática, <br> Área de Diseño y Producción (la Cueva Tecnológica)<br> Página elaborada con Html5+CSS3+Bootstrap y AngularJS - Software
+                Libre </h6>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Modal -- Objetivos -->
+    <div class="modal fade " id="objetivos " tabindex="-1 " role="dialog " aria-labelledby="myModalLabel " aria-hidden="true ">
+        <div class="modal-dialog ">
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <button type="button " class="close " data-dismiss="modal " aria-label="Close "><span aria-hidden="true ">&times;</span></button>
+                    <h4 class="modal-title " id="myModalLabel ">Objetivo</h4>
+                </div>
+                <div class="modal-body ">
+                    <p>Coordinar el funcionamiento de las diferentes áreas y cátedras integradas en su estructura a través de sus instancias ejecutivas y organizativas, con la finalidad de realizar las actividades de docencia, investigación, extensión y
+                        producción. </p>
+                </div>
+                <div class="modal-footer ">
+                    <button type="button " class="btn btn-primary " data-dismiss="modal ">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Modal perfil -->
+    <div class="modal fade " id="perfil " tabindex="-1 " role="dialog " aria-labelledby="myModalLabel " aria-hidden="true ">
+        <div class="modal-dialog ">
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <button type="button " class="close " data-dismiss="modal " aria-label="Close "><span aria-hidden="true ">&times;</span></button>
+                    <h4 class="modal-title " id="myModalLabel ">Perfil</h4>
+                </div>
+                <div class="modal-body ">
+                    <p>“El Licenciado en Educación mención Informática será un profesional de la docencia orientado a la enseñanza de la informática en los diferentes niveles educativos; capacitado para enseñar y aplicar las tecnologías asociadas a la informática
+                        y las comunicaciones en ambientes educativos, capaz de desempañarse eficientemente en actividades relacionadas con la planificación, investigación, diseño y desarrollo de experiencias educativas que involucren la tecnología de
+                        la computación y las asociadas a ella, de manera: creativa, prospectiva, objetiva, crítica, racional, integradora, organizada y lógica.</p>
+
+                    <p>El perfil profesional general del licenciado en Educación: Investigador, Planificador, Facilitador, Administrador, Orientador, Promotor Social y Evaluador.”</p>
+
+                    <p>
+                        <h5>Colmenares C, Delgado D, Grimón F. (2003) Diseño Curricular de la Licenciatura en Educación Mención: Informática. Revista Ciencias de la Educación, Año 3 • Vol. 2 • Nº 22 • Valencia. Venezuela. </h5>
+                    </p>
+                </div>
+                <div class="modal-footer ">
+                    <button type="button " class="btn btn-primary " data-dismiss="modal ">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <script type="text/javascript " async defer src="//assets.pinterest.com/js/pinit.js "></script>
+
+</body>
+
+</html>
